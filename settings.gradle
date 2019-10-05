@@ -1,2 +1,2 @@
-include ':app', ':workingwithswapilibrary'
+include ':app', ':API'
 rootProject.name='StarWars'

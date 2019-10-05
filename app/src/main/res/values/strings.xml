@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">StarWars</string>
+    <string name="HeroSearchHinit">Enter your query here</string>
+    <string name="heroesNoItems">Star Wars hero list is empty</string>
 </resources>

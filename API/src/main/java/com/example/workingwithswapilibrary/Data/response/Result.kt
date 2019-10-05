@@ -1,4 +1,4 @@
-package com.example.workingwithswapilibrary
+package com.example.workingwithswapilibrary.Data.response
 
 import com.squareup.moshi.Json
 

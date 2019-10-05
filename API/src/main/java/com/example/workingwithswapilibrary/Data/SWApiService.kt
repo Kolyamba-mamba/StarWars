@@ -1,5 +1,6 @@
-package com.example.workingwithswapilibrary
+package com.example.workingwithswapilibrary.Data
 
+import com.example.workingwithswapilibrary.Data.response.SWResponse
 import retrofit2.http.GET
 import retrofit2.http.Query
 
