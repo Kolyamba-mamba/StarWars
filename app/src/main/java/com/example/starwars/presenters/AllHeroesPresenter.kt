@@ -8,7 +8,7 @@ import moxy.MvpPresenter
 
 @InjectViewState
 class AllHeroesPresenter: MvpPresenter<AllHeroesView>() {
-    fun loadHeroes() {
+     fun loadHeroes() {
         viewState.startLoading()
         AllHeroesProvider(presenter = this).loadingHeroes()
     }
@@ -20,6 +20,7 @@ class AllHeroesPresenter: MvpPresenter<AllHeroesView>() {
             viewState.showError(textResource = R.string.heroesNoItems)
         } else {
             viewState.setupHeroes(heroesList = heroesList)
+
         }
     }
 }

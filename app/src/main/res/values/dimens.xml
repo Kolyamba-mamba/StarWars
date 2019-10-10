@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="hero_margin">8dp</dimen>
+    <dimen name="spacing">10dp</dimen>
+    <dimen name="tv_height">60dp</dimen>
+    <dimen name="text_size_hero">20sp</dimen>
+    <dimen name="grid_view_padding">20dp</dimen>
+    <dimen name="edit_text_margin">15dp</dimen>
+    <dimen name="edit_text_padding">8dp</dimen>
+</resources>

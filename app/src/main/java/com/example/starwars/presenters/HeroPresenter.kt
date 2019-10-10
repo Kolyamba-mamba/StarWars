@@ -6,4 +6,7 @@ import moxy.MvpPresenter
 
 @InjectViewState
 class HeroPresenter: MvpPresenter<HeroView>() {
+    fun loadHero(){
+        viewState.startLoading()
+    }
 }

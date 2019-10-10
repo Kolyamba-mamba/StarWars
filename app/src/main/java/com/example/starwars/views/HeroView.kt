@@ -7,4 +7,9 @@ import moxy.viewstate.strategy.StateStrategyType
 
 @StateStrategyType(value = AddToEndSingleStrategy::class)
 interface HeroView: MvpView {
+    fun showError(textResource : Int)
+    fun setupEmpty()
+    fun setupHero()
+    fun startLoading()
+    fun endLoading()
 }
